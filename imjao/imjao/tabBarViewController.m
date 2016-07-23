@@ -18,7 +18,10 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
 //    [[UITabBar appearance] setShadowImage:[[UIImage alloc] init]];
-    
+    //建闯吃了个大屎
+    //建闯吃了个大屎
+    //建闯吃了个大屎//建闯吃了个大屎//建闯吃了个大屎
+    //建闯吃了个大屎//建闯吃了个大屎
 
 }
 - (void)viewDidLoad {
