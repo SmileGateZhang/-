@@ -1,0 +1,7 @@
+platform:ios,'8.0'
+target’imjao’do
+pod 'SDWebImage','~>3.8.1'
+pod 'SDCycleScrollView', '~> 1.65'
+pod 'HYBMasonryAutoCellHeight', '~> 2.0.1'
+pod 'SDAutoLayout', '~> 2.1.1'
+end
