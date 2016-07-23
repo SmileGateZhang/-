@@ -23,14 +23,14 @@
     CGFloat e = -M_PI_2;
     
     UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:point radius:r startAngle:s endAngle:e clockwise:YES];
-    UIColor *c = [UIColor greenColor];
+    UIColor *c = [UIColor yellowColor];
     [c set];
     [path fill];
     path.lineWidth = 2.0f;
     [path stroke];
     UIButton *butn = [[UIButton alloc] init];
     butn.sd_layout.yIs(0).xIs(0).heightIs(100).widthIs(CGRectGetWidth(self.view.frame));
-    butn.backgroundColor = [UIColor redColor];
+    butn.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:butn];
 }
 
