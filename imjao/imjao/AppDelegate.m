@@ -14,6 +14,10 @@
 @end
 
 @implementation AppDelegate
+//建闯吃了个大屎
+//建闯吃了个大屎
+//建闯吃了个大屎//建闯吃了个大屎//建闯吃了个大屎
+//建闯吃了个大屎//建闯吃了个大屎
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
