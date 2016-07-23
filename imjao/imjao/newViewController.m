@@ -23,7 +23,7 @@
     CGFloat e = -M_PI_2;
     
     UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:point radius:r startAngle:s endAngle:e clockwise:YES];
-    UIColor *c = [UIColor blueColor];
+    UIColor *c = [UIColor greenColor];
     [c set];
     [path fill];
     path.lineWidth = 2.0f;
