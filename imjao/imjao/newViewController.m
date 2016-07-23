@@ -28,7 +28,10 @@
     [path fill];
     path.lineWidth = 2.0f;
     [path stroke];
-
+    UIButton *butn = [[UIButton alloc] init];
+    butn.sd_layout.yIs(0).xIs(0).heightIs(100).widthIs(CGRectGetWidth(self.view.frame));
+    butn.backgroundColor = [UIColor redColor];
+    [self.view addSubview:butn];
 }
 
 - (void)didReceiveMemoryWarning {
