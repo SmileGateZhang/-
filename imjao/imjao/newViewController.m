@@ -30,7 +30,11 @@
     [path stroke];
     UIButton *butn = [[UIButton alloc] init];
     butn.sd_layout.yIs(0).xIs(0).heightIs(100).widthIs(CGRectGetWidth(self.view.frame));
+<<<<<<< HEAD
     butn.backgroundColor = [UIColor yellowColor];
+=======
+    butn.backgroundColor = [UIColor blackColor];
+>>>>>>> e781d73c6b8a3c1d230ccf75afc169a85be6e2c6
     [self.view addSubview:butn];
 }
 
