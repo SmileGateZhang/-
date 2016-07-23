@@ -31,7 +31,10 @@
     self.window.rootViewController = self.lvc;
     [self.window makeKeyAndVisible];
     return YES;
+    
+    
 }
+//哈哈哈哈哈哈哈哈
 -(void)heheda{
     
         tabBarViewController *vc = [[tabBarViewController alloc] init];
