@@ -12,7 +12,7 @@
 @interface AppDelegate ()<haha>
 @property (nonatomic,strong)LaunchViewController * lvc;
 @end
-
+//激动的跑开发票疯狂的跑快点
 @implementation AppDelegate
 //建闯吃了个大屎
 //建闯吃了个大屎
