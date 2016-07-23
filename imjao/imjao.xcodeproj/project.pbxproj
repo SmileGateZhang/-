@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21043D561D31195D005A911E /* hahaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21043D541D31195D005A911E /* hahaTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		21043D571D31195D005A911E /* hahaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21043D551D31195D005A911E /* hahaTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		21043E651D337E06005A911E /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21043E641D337E06005A911E /* LaunchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		214263521D2BA7FD00ED1E47 /* aliveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214263511D2BA7FD00ED1E47 /* aliveViewController.m */; settings = {ASSET_TAGS = (); }; };
+		214263551D2BA80C00ED1E47 /* attentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214263541D2BA80C00ED1E47 /* attentionViewController.m */; settings = {ASSET_TAGS = (); }; };
+		214263581D2BA81400ED1E47 /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214263571D2BA81400ED1E47 /* newViewController.m */; settings = {ASSET_TAGS = (); }; };
+		214263611D2BA96800ED1E47 /* attentionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2142635F1D2BA96800ED1E47 /* attentionTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		214263621D2BA96800ED1E47 /* attentionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 214263601D2BA96800ED1E47 /* attentionTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		21F618DD1D2A0B2700A21FAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F618DC1D2A0B2700A21FAA /* main.m */; };
+		21F618E01D2A0B2700A21FAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F618DF1D2A0B2700A21FAA /* AppDelegate.m */; };
+		21F618E61D2A0B2700A21FAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F618E41D2A0B2700A21FAA /* Main.storyboard */; };
+		21F618E81D2A0B2700A21FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F618E71D2A0B2700A21FAA /* Assets.xcassets */; };
+		21F618EB1D2A0B2700A21FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F618E91D2A0B2700A21FAA /* LaunchScreen.storyboard */; };
+		21F618F61D2A0B2700A21FAA /* imjaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F618F51D2A0B2700A21FAA /* imjaoTests.m */; };
+		21F619011D2A0B2700A21FAA /* imjaoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F619001D2A0B2700A21FAA /* imjaoUITests.m */; };
+		21F619131D2A0C7C00A21FAA /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F619121D2A0C7C00A21FAA /* tabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		21F619161D2A0D2200A21FAA /* baseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F619151D2A0D2200A21FAA /* baseViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2A1F6435BF0B162C0B5819CD /* libPods-imjao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F27550FA1774651D7467E1B /* libPods-imjao.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21F618F21D2A0B2700A21FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F618D01D2A0B2700A21FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F618D71D2A0B2700A21FAA;
+			remoteInfo = imjao;
+		};
+		21F618FD1D2A0B2700A21FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21F618D01D2A0B2700A21FAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21F618D71D2A0B2700A21FAA;
+			remoteInfo = imjao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F27550FA1774651D7467E1B /* libPods-imjao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imjao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21043D531D31195D005A911E /* hahaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hahaTableViewCell.h; sourceTree = "<group>"; };
+		21043D541D31195D005A911E /* hahaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hahaTableViewCell.m; sourceTree = "<group>"; };
+		21043D551D31195D005A911E /* hahaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = hahaTableViewCell.xib; sourceTree = "<group>"; };
+		21043E631D337E06005A911E /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		21043E641D337E06005A911E /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		214263501D2BA7FD00ED1E47 /* aliveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aliveViewController.h; sourceTree = "<group>"; };
+		214263511D2BA7FD00ED1E47 /* aliveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = aliveViewController.m; sourceTree = "<group>"; };
+		214263531D2BA80C00ED1E47 /* attentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attentionViewController.h; sourceTree = "<group>"; };
+		214263541D2BA80C00ED1E47 /* attentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attentionViewController.m; sourceTree = "<group>"; };
+		214263561D2BA81400ED1E47 /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
+		214263571D2BA81400ED1E47 /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
+		2142635E1D2BA96800ED1E47 /* attentionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attentionTableViewCell.h; sourceTree = "<group>"; };
+		2142635F1D2BA96800ED1E47 /* attentionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = attentionTableViewCell.m; sourceTree = "<group>"; };
+		214263601D2BA96800ED1E47 /* attentionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = attentionTableViewCell.xib; sourceTree = "<group>"; };
+		21F618D81D2A0B2700A21FAA /* imjao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imjao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F618DC1D2A0B2700A21FAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21F618DE1D2A0B2700A21FAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21F618DF1D2A0B2700A21FAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21F618E51D2A0B2700A21FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21F618E71D2A0B2700A21FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F618EA1D2A0B2700A21FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21F618EC1D2A0B2700A21FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F618F11D2A0B2700A21FAA /* imjaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imjaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F618F51D2A0B2700A21FAA /* imjaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imjaoTests.m; sourceTree = "<group>"; };
+		21F618F71D2A0B2700A21FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F618FC1D2A0B2700A21FAA /* imjaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imjaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F619001D2A0B2700A21FAA /* imjaoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = imjaoUITests.m; sourceTree = "<group>"; };
+		21F619021D2A0B2700A21FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F619111D2A0C7C00A21FAA /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarViewController.h; sourceTree = "<group>"; };
+		21F619121D2A0C7C00A21FAA /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarViewController.m; sourceTree = "<group>"; };
+		21F619141D2A0D2200A21FAA /* baseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseViewController.h; sourceTree = "<group>"; };
+		21F619151D2A0D2200A21FAA /* baseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseViewController.m; sourceTree = "<group>"; };
+		D18C24655DD2D7D276562893 /* Pods-imjao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imjao.release.xcconfig"; path = "Pods/Target Support Files/Pods-imjao/Pods-imjao.release.xcconfig"; sourceTree = "<group>"; };
+		EA5B7DDC09FFEE635C1BCE85 /* Pods-imjao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imjao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imjao/Pods-imjao.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F618D51D2A0B2700A21FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1F6435BF0B162C0B5819CD /* libPods-imjao.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F618EE1D2A0B2700A21FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F618F91D2A0B2700A21FAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214263591D2BA87C00ED1E47 /* mvc */ = {
+			isa = PBXGroup;
+			children = (
+				2142635D1D2BA93900ED1E47 /* model */,
+				2142635C1D2BA92600ED1E47 /* view */,
+				2142635B1D2BA90E00ED1E47 /* viewController */,
+			);
+			name = mvc;
+			sourceTree = "<group>";
+		};
+		2142635A1D2BA89D00ED1E47 /* mainFile */ = {
+			isa = PBXGroup;
+			children = (
+				21F618DE1D2A0B2700A21FAA /* AppDelegate.h */,
+				21F618DF1D2A0B2700A21FAA /* AppDelegate.m */,
+				21F619111D2A0C7C00A21FAA /* tabBarViewController.h */,
+				21F619121D2A0C7C00A21FAA /* tabBarViewController.m */,
+				21F619141D2A0D2200A21FAA /* baseViewController.h */,
+				21F619151D2A0D2200A21FAA /* baseViewController.m */,
+				21043E631D337E06005A911E /* LaunchViewController.h */,
+				21043E641D337E06005A911E /* LaunchViewController.m */,
+			);
+			name = mainFile;
+			sourceTree = "<group>";
+		};
+		2142635B1D2BA90E00ED1E47 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				214263501D2BA7FD00ED1E47 /* aliveViewController.h */,
+				214263511D2BA7FD00ED1E47 /* aliveViewController.m */,
+				214263531D2BA80C00ED1E47 /* attentionViewController.h */,
+				214263541D2BA80C00ED1E47 /* attentionViewController.m */,
+				214263561D2BA81400ED1E47 /* newViewController.h */,
+				214263571D2BA81400ED1E47 /* newViewController.m */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		2142635C1D2BA92600ED1E47 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2142635E1D2BA96800ED1E47 /* attentionTableViewCell.h */,
+				2142635F1D2BA96800ED1E47 /* attentionTableViewCell.m */,
+				214263601D2BA96800ED1E47 /* attentionTableViewCell.xib */,
+				21043D531D31195D005A911E /* hahaTableViewCell.h */,
+				21043D541D31195D005A911E /* hahaTableViewCell.m */,
+				21043D551D31195D005A911E /* hahaTableViewCell.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		2142635D1D2BA93900ED1E47 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		21F618CF1D2A0B2700A21FAA = {
+			isa = PBXGroup;
+			children = (
+				21F618DA1D2A0B2700A21FAA /* imjao */,
+				21F618F41D2A0B2700A21FAA /* imjaoTests */,
+				21F618FF1D2A0B2700A21FAA /* imjaoUITests */,
+				21F618D91D2A0B2700A21FAA /* Products */,
+				56821CF807CC8761AD2E52A4 /* Pods */,
+				E21E34BD633112F76AF1CDBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21F618D91D2A0B2700A21FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F618D81D2A0B2700A21FAA /* imjao.app */,
+				21F618F11D2A0B2700A21FAA /* imjaoTests.xctest */,
+				21F618FC1D2A0B2700A21FAA /* imjaoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F618DA1D2A0B2700A21FAA /* imjao */ = {
+			isa = PBXGroup;
+			children = (
+				2142635A1D2BA89D00ED1E47 /* mainFile */,
+				214263591D2BA87C00ED1E47 /* mvc */,
+				21F618E41D2A0B2700A21FAA /* Main.storyboard */,
+				21F618E71D2A0B2700A21FAA /* Assets.xcassets */,
+				21F618E91D2A0B2700A21FAA /* LaunchScreen.storyboard */,
+				21F618EC1D2A0B2700A21FAA /* Info.plist */,
+				21F618DB1D2A0B2700A21FAA /* Supporting Files */,
+			);
+			path = imjao;
+			sourceTree = "<group>";
+		};
+		21F618DB1D2A0B2700A21FAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21F618DC1D2A0B2700A21FAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21F618F41D2A0B2700A21FAA /* imjaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				21F618F51D2A0B2700A21FAA /* imjaoTests.m */,
+				21F618F71D2A0B2700A21FAA /* Info.plist */,
+			);
+			path = imjaoTests;
+			sourceTree = "<group>";
+		};
+		21F618FF1D2A0B2700A21FAA /* imjaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21F619001D2A0B2700A21FAA /* imjaoUITests.m */,
+				21F619021D2A0B2700A21FAA /* Info.plist */,
+			);
+			path = imjaoUITests;
+			sourceTree = "<group>";
+		};
+		56821CF807CC8761AD2E52A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA5B7DDC09FFEE635C1BCE85 /* Pods-imjao.debug.xcconfig */,
+				D18C24655DD2D7D276562893 /* Pods-imjao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E21E34BD633112F76AF1CDBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F27550FA1774651D7467E1B /* libPods-imjao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F618D71D2A0B2700A21FAA /* imjao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F619051D2A0B2700A21FAA /* Build configuration list for PBXNativeTarget "imjao" */;
+			buildPhases = (
+				4553B3A342AF60E08E06D8A0 /* [CP] Check Pods Manifest.lock */,
+				21F618D41D2A0B2700A21FAA /* Sources */,
+				21F618D51D2A0B2700A21FAA /* Frameworks */,
+				21F618D61D2A0B2700A21FAA /* Resources */,
+				4D99D057290AEAD852F89E9C /* [CP] Embed Pods Frameworks */,
+				1B07BBEBE1C2652537C32CBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imjao;
+			productName = imjao;
+			productReference = 21F618D81D2A0B2700A21FAA /* imjao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21F618F01D2A0B2700A21FAA /* imjaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F619081D2A0B2700A21FAA /* Build configuration list for PBXNativeTarget "imjaoTests" */;
+			buildPhases = (
+				21F618ED1D2A0B2700A21FAA /* Sources */,
+				21F618EE1D2A0B2700A21FAA /* Frameworks */,
+				21F618EF1D2A0B2700A21FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F618F31D2A0B2700A21FAA /* PBXTargetDependency */,
+			);
+			name = imjaoTests;
+			productName = imjaoTests;
+			productReference = 21F618F11D2A0B2700A21FAA /* imjaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21F618FB1D2A0B2700A21FAA /* imjaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F6190B1D2A0B2700A21FAA /* Build configuration list for PBXNativeTarget "imjaoUITests" */;
+			buildPhases = (
+				21F618F81D2A0B2700A21FAA /* Sources */,
+				21F618F91D2A0B2700A21FAA /* Frameworks */,
+				21F618FA1D2A0B2700A21FAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21F618FE1D2A0B2700A21FAA /* PBXTargetDependency */,
+			);
+			name = imjaoUITests;
+			productName = imjaoUITests;
+			productReference = 21F618FC1D2A0B2700A21FAA /* imjaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F618D01D2A0B2700A21FAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "zhang zhang";
+				TargetAttributes = {
+					21F618D71D2A0B2700A21FAA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					21F618F01D2A0B2700A21FAA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21F618D71D2A0B2700A21FAA;
+					};
+					21F618FB1D2A0B2700A21FAA = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 21F618D71D2A0B2700A21FAA;
+					};
+				};
+			};
+			buildConfigurationList = 21F618D31D2A0B2700A21FAA /* Build configuration list for PBXProject "imjao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F618CF1D2A0B2700A21FAA;
+			productRefGroup = 21F618D91D2A0B2700A21FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F618D71D2A0B2700A21FAA /* imjao */,
+				21F618F01D2A0B2700A21FAA /* imjaoTests */,
+				21F618FB1D2A0B2700A21FAA /* imjaoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F618D61D2A0B2700A21FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21043D571D31195D005A911E /* hahaTableViewCell.xib in Resources */,
+				214263621D2BA96800ED1E47 /* attentionTableViewCell.xib in Resources */,
+				21F618EB1D2A0B2700A21FAA /* LaunchScreen.storyboard in Resources */,
+				21F618E81D2A0B2700A21FAA /* Assets.xcassets in Resources */,
+				21F618E61D2A0B2700A21FAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F618EF1D2A0B2700A21FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F618FA1D2A0B2700A21FAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B07BBEBE1C2652537C32CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imjao/Pods-imjao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4553B3A342AF60E08E06D8A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D99D057290AEAD852F89E9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imjao/Pods-imjao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F618D41D2A0B2700A21FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F618E01D2A0B2700A21FAA /* AppDelegate.m in Sources */,
+				214263551D2BA80C00ED1E47 /* attentionViewController.m in Sources */,
+				21F619161D2A0D2200A21FAA /* baseViewController.m in Sources */,
+				21043E651D337E06005A911E /* LaunchViewController.m in Sources */,
+				21F618DD1D2A0B2700A21FAA /* main.m in Sources */,
+				214263611D2BA96800ED1E47 /* attentionTableViewCell.m in Sources */,
+				21F619131D2A0C7C00A21FAA /* tabBarViewController.m in Sources */,
+				214263581D2BA81400ED1E47 /* newViewController.m in Sources */,
+				214263521D2BA7FD00ED1E47 /* aliveViewController.m in Sources */,
+				21043D561D31195D005A911E /* hahaTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F618ED1D2A0B2700A21FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F618F61D2A0B2700A21FAA /* imjaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F618F81D2A0B2700A21FAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21F619011D2A0B2700A21FAA /* imjaoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21F618F31D2A0B2700A21FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F618D71D2A0B2700A21FAA /* imjao */;
+			targetProxy = 21F618F21D2A0B2700A21FAA /* PBXContainerItemProxy */;
+		};
+		21F618FE1D2A0B2700A21FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21F618D71D2A0B2700A21FAA /* imjao */;
+			targetProxy = 21F618FD1D2A0B2700A21FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21F618E41D2A0B2700A21FAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F618E51D2A0B2700A21FAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21F618E91D2A0B2700A21FAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21F618EA1D2A0B2700A21FAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21F619031D2A0B2700A21FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F619041D2A0B2700A21FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F619061D2A0B2700A21FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5B7DDC09FFEE635C1BCE85 /* Pods-imjao.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = imjao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushDemo.imjao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21F619071D2A0B2700A21FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D18C24655DD2D7D276562893 /* Pods-imjao.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
+				INFOPLIST_FILE = imjao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushDemo.imjao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		21F619091D2A0B2700A21FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imjaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majo.imjaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imjao.app/imjao";
+			};
+			name = Debug;
+		};
+		21F6190A1D2A0B2700A21FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imjaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majo.imjaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imjao.app/imjao";
+			};
+			name = Release;
+		};
+		21F6190C1D2A0B2700A21FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imjaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majo.imjaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imjao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		21F6190D1D2A0B2700A21FAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imjaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = majo.imjaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imjao;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F618D31D2A0B2700A21FAA /* Build configuration list for PBXProject "imjao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F619031D2A0B2700A21FAA /* Debug */,
+				21F619041D2A0B2700A21FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F619051D2A0B2700A21FAA /* Build configuration list for PBXNativeTarget "imjao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F619061D2A0B2700A21FAA /* Debug */,
+				21F619071D2A0B2700A21FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F619081D2A0B2700A21FAA /* Build configuration list for PBXNativeTarget "imjaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F619091D2A0B2700A21FAA /* Debug */,
+				21F6190A1D2A0B2700A21FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F6190B1D2A0B2700A21FAA /* Build configuration list for PBXNativeTarget "imjaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F6190C1D2A0B2700A21FAA /* Debug */,
+				21F6190D1D2A0B2700A21FAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21F618D01D2A0B2700A21FAA /* Project object */;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="hahaID" rowHeight="156" id="KGk-i7-Jjw" customClass="hahaTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="155.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kJ-yG-hB2">
+                        <rect key="frame" x="20" y="105.5" width="30" height="30"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.60207423469999999" green="1" blue="0.32973246490000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="gfG-nT-94C"/>
+                            <constraint firstAttribute="width" constant="30" id="ptb-3p-1aQ"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FoJ-22-QQP">
+                        <rect key="frame" x="145" y="105.5" width="30" height="30"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.14289951679999999" blue="0.28732041629999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="4r4-wP-X35"/>
+                            <constraint firstAttribute="width" constant="30" id="9I9-uj-0eH"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAl-a8-wwf">
+                        <rect key="frame" x="270" y="105.5" width="30" height="30"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.52090955210000001" blue="0.89443892479999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Awl-tV-edy"/>
+                            <constraint firstAttribute="width" constant="30" id="fqn-TD-eh7"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="GAl-a8-wwf" secondAttribute="trailing" constant="20" id="AKE-kc-1la"/>
+                    <constraint firstItem="5kJ-yG-hB2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="PnF-RD-Srj"/>
+                    <constraint firstAttribute="bottom" secondItem="GAl-a8-wwf" secondAttribute="bottom" constant="20" id="Z2Z-nT-03R"/>
+                    <constraint firstAttribute="bottom" secondItem="FoJ-22-QQP" secondAttribute="bottom" constant="20" id="hn7-kb-f9z"/>
+                    <constraint firstItem="FoJ-22-QQP" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="r9u-Mm-xbH"/>
+                    <constraint firstAttribute="bottom" secondItem="5kJ-yG-hB2" secondAttribute="bottom" constant="20" id="s2a-b4-QoW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <point key="canvasLocation" x="302" y="253"/>
+        </tableViewCell>
+    </objects>
+</document>
